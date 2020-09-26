@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    background-size: cover;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: move;
+}
+
+@keyframes move{
+    0%{
+        background-image: url("https://images.pexels.com/photos/4354389/pexels-photo-4354389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+    20%{
+        background-image: url("https://images.pexels.com/photos/4328962/pexels-photo-4328962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+    40% {
+        background-image: url("https://images.pexels.com/photos/318391/pexels-photo-318391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+    60%{
+        background-image: url("https://images.pexels.com/photos/4354389/pexels-photo-4354389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+    80%{
+        background-image: url("https://images.pexels.com/photos/4328962/pexels-photo-4328962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+    100%{
+        background-image: url("https://images.pexels.com/photos/4354389/pexels-photo-4354389.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    }
+}
+
